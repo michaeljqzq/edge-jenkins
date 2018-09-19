@@ -7,12 +7,12 @@ It will cost 15-20 minutes to complete this bug bash.
 Please log issue on [Github](https://github.com/Microsoft/azure-iot-edge-jenkins-plugin/issues)
 
 ## Prerequisites
-You already have a Git repo that contains an Edge solution.
+1. You already have a Git repo that contains an Edge solution.
+
+2. Create an Azure Service Principal through [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/create-an-azure-service-principal-azure-cli?toc=%2fazure%2fazure-resource-manager%2ftoc.json) or [Azure portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal).
 
 ## Steps
 1. Goto [http://msnow.org/jenkins](http://msnow.org/jenkins), login with username `vschinaiot`, password `#*******$`
-
-2. Create an Azure Service Principal through [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/create-an-azure-service-principal-azure-cli?toc=%2fazure%2fazure-resource-manager%2ftoc.json) or [Azure portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal).
 
 3. Open Jenkins dashboard, go to Credentials, add a new `Microsoft Azure Service Principal` with the credential information you just created.
 ![](doc/cred-azuresp.png)
