@@ -41,6 +41,9 @@ To use this plugin to build and deploy Azure IoT Edge solution, first you need t
 
 1. Create an Azure Service Principal through [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/create-an-azure-service-principal-azure-cli?toc=%2fazure%2fazure-resource-manager%2ftoc.json) or [Azure portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal).
 2. Open Jenkins dashboard, go to Credentials, add a new `Microsoft Azure Service Principal` with the credential information you just created.
+![](doc/cred-azuresp.png)
+![](doc/cred-azuresp2.png)
+![](doc/cred-azuresp3.png)
 3. If you use common docker registry credential(like docker hub), you may also add a new `Username with password` credential.
 
 ## Create a project
